@@ -1,0 +1,63 @@
+﻿@model BahcedenApp.Areas.AdminPanel.Data.ManagerLoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="margin-top:250px">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="~/Assets/SiteImages/images.jpg" class="img-thumbnail" />
+                            </div>
+                            <div class="col-md-6">
+                                @using (Html.BeginForm())
+                                {
+                                    <div class="row">
+                                        <h3>Admin Giriş</h3>
+                                        <label>Lütfen giriş yapmak için kullanıcı adı ve şifrenizi yazınız</label>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <label>Mail Adresiniz</label>
+                                        @Html.EditorFor(Model => Model.Mail, new { htmlAttributes = new { @class = "form-control", @placeholder = "orn@orn.com" } })
+                                        @Html.ValidationMessageFor(model => model.Mail, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="row mt-3">
+                                        <label>Şifreniz</label>
+                                        @Html.EditorFor(Model => Model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="row mt-3">
+                                        <button class="btn btn-primary" type="submit">Giriş Yap</button>
+                                    </div>
+                                    if (ViewBag.mesaj != null)
+                                    {
+                                        <div class="row mt-3">
+                                            <div class="alert alert-danger">
+                                                <span>@ViewBag.mesaj</span>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
