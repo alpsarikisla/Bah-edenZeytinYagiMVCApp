@@ -14,6 +14,7 @@ namespace BahcedenApp.Models
 
         public DbSet<Manager> Managers { get; set; }
         public DbSet<ManagerType> ManagerTypes { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
 
         //Buraya Eklenmeyen sınıfın veritabanında tablosu oluşmaz

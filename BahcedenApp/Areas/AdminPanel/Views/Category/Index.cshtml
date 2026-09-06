@@ -1,0 +1,65 @@
+﻿@using BahcedenApp.Models
+
+@* @model List<Category> Hız Açısından Kötü  *@
+
+@model ICollection<Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Kategoriler</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <a href="@Url.Action("Create", "Category")" class="btn btn-sm btn-success">+ Kategori Ekle</a>
+            <a href="@Url.Action("IndexAll", "Category")" class="btn btn-sm btn-outline-secondary"> Tüm Kategoriler</a>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <table class="table table-striped">
+        <thead>
+            <tr class="bg-light">
+                <th>#</th>
+                <th>Kategori Adı</th>
+                <th>Durum</th>
+                <th>Seçenekler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Category item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Name</td>
+                    <td>
+                        @if (item.IsActive)
+                        {
+                            <span class="badge bg-success rounded-pill">Aktif</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary rounded-pill">Pasif</span>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            @if (item.IsActive)
+                            {
+                                <a href="@Url.Action("Deactivate","Category", new {id = item.ID})" class="btn btn-outline-secondary">Pasif Yap</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Activate","Category", new {id = item.ID})" class="btn btn-outline-success">Aktif Yap</a>
+                            }
+                            <a href="@Url.Action("Edit","Category", new {id = item.ID})" class="btn btn-primary">Düzenle</a>
+                            <a href="@Url.Action("Delete","Category" , new {id = item.ID})" class="btn btn-danger">Sil</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

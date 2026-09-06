@@ -1,0 +1,58 @@
+﻿
+@model BahcedenApp.Models.Category
+@{
+    ViewBag.Title = "Düzenle";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Kategori Düzenle</h1>
+</div>
+<div>
+    <div class="card">
+        @using (Html.BeginForm())
+        {
+            <div class="card-body">
+                @if (ViewBag.sonuc != null)
+                {
+                    if (ViewBag.sonuc)
+                    {
+                        <div class="alert alert-success">
+                            <strong>Başarılı</strong> kategori başarıyla düenlendi
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-danger">
+                            <strong>Hata Oluştu</strong> kategori düzenlenirken bir hata oluştu
+                        </div>
+                    }
+                }
+                <div class="mt-2">
+                    <label>Kategori Adı</label>
+                    @Html.EditorFor(Model => Model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="mt-2">
+                    <label>Kategori Açıklama</label>
+                    @Html.EditorFor(Model => Model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                </div>
+                <div class="mt-2">
+                    <div class="form-check form-switch">
+                        @Html.EditorFor(Model => Model.IsActive, new { htmlAttributes = new { @class = "form-check-input" } })
+                        <label class="form-check-label" for="IsActive">Aktif Kategori</label>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <button type="submit" class="btn btn-primary">Kategori Düzenle</button>
+                </div>
+            </div>
+            <div class="card-footer">
+
+                <a href="@Url.Action("Index","Category")">Kategoriler Listesine Dön</a>
+            </div>
+        }
+    </div>
+</div>
+
