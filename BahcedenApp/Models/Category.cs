@@ -22,5 +22,7 @@ namespace BahcedenApp.Models
 
         public bool IsDeleted { get; set; } = false;
 
+        public virtual List<Product> Products { get; set; }
+
     }
 }

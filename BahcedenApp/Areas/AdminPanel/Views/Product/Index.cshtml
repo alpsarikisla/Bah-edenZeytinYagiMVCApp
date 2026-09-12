@@ -1,0 +1,67 @@
+﻿@using BahcedenApp.Models
+@model ICollection<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Ürünler</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <a href="@Url.Action("Create", "Product")" class="btn btn-sm btn-success">+ Ürün Ekle</a>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Resim</th>
+                <th>Ürün No</th>
+                <th>Ürün Adı</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+                <th>Stok</th>
+                <th>Secenekler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Product urun in Model)
+            {
+                <tr>
+                    <td>
+                        <button data-bs-toggle="modal" data-bs-target="#p-@urun.ID"><img src="~/Assets/ProductImages/@urun.Image" class="img-fluid" style="width:40px" /></button>
+                        <div class="modal fade" id="p-@urun.ID">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">@urun.Name</h4>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="~/Assets/ProductImages/@urun.Image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>@urun.ID</td>
+                    <td>@urun.Name</td>
+                    <td>@urun.Category.Name</td>
+                    <td>@urun.Price ₺</td>
+                    <td>@urun.Stock adet</td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            <a href="@Url.Action("Edit","Product", new {id = urun.ID})" class="btn btn-primary">Düzenle</a>
+                            <a href="@Url.Action("Delete","Product" , new {id = urun.ID})" class="btn btn-danger">Sil</a>
+                        </div>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

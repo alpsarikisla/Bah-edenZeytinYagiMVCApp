@@ -1,0 +1,84 @@
+﻿@model BahcedenApp.Models.Product
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Ürün Düzenle</h1>
+</div>
+<div class="card">
+    @* Formun dosya upload edebilmesi için multipart/form-data yazılmalı  *@
+    @using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.HiddenFor(model => Model.Image)
+        <div class="card-body">
+            @if (ViewBag.sonuc != null)
+            {
+                if (ViewBag.sonuc)
+                {
+                    <div class="alert alert-success">
+                        <strong>Başarılı</strong> Ürün başarıyla düzenlendi
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-danger">
+                        <strong>Hata Oluştu</strong> Ürün düzenlenirken bir hata oluştu
+                    </div>
+                }
+            }
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mt-2">
+                        <label>Ürün Adı</label>
+                        @Html.EditorFor(Model => Model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="mt-2">
+                        <label>Kategori Seçiniz</label>
+                        @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-select" })
+                    </div>
+                    <div class="mt-2">
+                        <label>Ürün Fiyat</label>
+                        @Html.EditorFor(Model => Model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="mt-2">
+                        <label>Ürün Stok</label>
+                        @Html.EditorFor(Model => Model.Stock, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Stock, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mt-2">
+                        <label>Ürün Açıklama</label>
+                        @Html.EditorFor(Model => Model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="mt-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="~/Assets/ProductImages/@Model.Image" class="img-fluid" />
+                            </div>
+                            <div class="col-md-8">
+                                <label>Ürün Resim</label>
+                                <input type="file" class="form-control" name="urunResim" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <button type="submit" class="btn btn-primary">Ürün Düzenle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+
+            <a href="@Url.Action("Index","Product")">Ürünler Listesine Dön</a>
+        </div>
+
+    }
+</div>
+
