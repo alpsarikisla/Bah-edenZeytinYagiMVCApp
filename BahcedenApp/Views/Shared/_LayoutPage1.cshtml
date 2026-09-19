@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center border-bottom pb-3">
+                <div class="col-4 pt-1">
+
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="@Url.Action("Index", "Home")">
+                        <img src="~/Assets/SiteImages/BahcedenLogo.png" height="50" />
+                    </a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="btn btn-sm btn-outline-success" href="#">Sepet (0)</a>
+                    <a class="btn btn-sm btn-outline-success" href="#">Giriş Yap</a>
+                </div>
+            </div>
+        </header>
+        @{Html.RenderAction("_CategoryMenu", "Category");}
+
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

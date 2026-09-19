@@ -1,0 +1,55 @@
+﻿@using BahcedenApp.Models
+@model ICollection<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="carousel slide" id="carouselslider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Assets/SliderImages/s1.png" class="d-block" style="width:100%" />
+            </div>
+            <div class="carousel-item">
+                <img src="~/Assets/SliderImages/s2.png" class="d-block" style="width:100%" />
+            </div>
+            <div class="carousel-item">
+                <img src="~/Assets/SliderImages/s3.png" class="d-block" style="width:100%" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        @foreach (Product item in Model)
+        {
+            <div class="col-lg-2 col-md-3">
+                <div class="card">
+                    <img src="~/Assets/ProductImages/@item.Image" class="card-img-top" />
+                    <div class="card-body">
+                        <p>@item.Name</p>
+                        @{double fiyat = item.Price + 200;}
+                        <label style="text-decoration:line-through"> @fiyat,00 ₺ </label>
+                        <label class="text-warning"> @item.Price,00 ₺ </label>
+                        
+                        <div class="d-grid mt-2">
+                            <a href="#" class="btn btn-sm btn-warning">Sepete Ekle</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    }
+    </div>
+</div>
