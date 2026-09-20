@@ -45,7 +45,7 @@
                         <label class="text-warning"> @item.Price,00 ₺ </label>
                         
                         <div class="d-grid mt-2">
-                            <a href="#" class="btn btn-sm btn-warning">Sepete Ekle</a>
+                            <a href="@Url.Action("AddToCart","UserCart", new {id = item.ID})" class="btn btn-sm btn-warning">Sepete Ekle</a>
                         </div>
                     </div>
             </div>

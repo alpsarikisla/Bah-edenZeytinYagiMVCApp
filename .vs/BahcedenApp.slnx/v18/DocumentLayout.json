@@ -3,27 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\views\\usercart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\usercart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\bahcedenapp\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\models\\usercart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\models\\usercart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\controllers\\usercartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\controllers\\usercartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\bahcedenapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\views\\useraccount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\useraccount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\views\\useraccount\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\useraccount\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\areas\\adminpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\areas\\adminpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\areas\\adminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\areas\\adminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\bahcedenapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\bahcedenapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|c:\\users\\alp\\documents\\github\\bah-edenzeytinyagimvcapp\\bahcedenapp\\views\\category\\_categorymenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\bahcedenapp\\views\\category\\_categorymenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEC8D8FE-67FC-4720-8FA7-8366F33510FF}|BahcedenApp\\BahcedenApp.csproj|solutionrelative:bahcedenapp\\views\\category\\_categorymenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -34,50 +62,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BahcedenApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BahcedenApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T13:21:29.913Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\UserCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Views\\UserCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\UserCart\\Index.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Views\\UserCart\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-20T13:39:25.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UserCartController.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\UserCartController.cs",
+              "RelativeDocumentMoniker": "BahcedenApp\\Controllers\\UserCartController.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\UserCartController.cs",
+              "RelativeToolTip": "BahcedenApp\\Controllers\\UserCartController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T13:23:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\UserAccount\\Login.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Views\\UserAccount\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\UserAccount\\Login.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Views\\UserAccount\\Login.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-20T13:06:12.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\UserAccount\\Register.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Views\\UserAccount\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\UserAccount\\Register.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Views\\UserAccount\\Register.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-20T12:36:45.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\UserAccountController.cs",
+              "RelativeDocumentMoniker": "BahcedenApp\\Controllers\\UserAccountController.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\UserAccountController.cs",
+              "RelativeToolTip": "BahcedenApp\\Controllers\\UserAccountController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:34:34.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserCart.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Models\\UserCart.cs",
+              "RelativeDocumentMoniker": "BahcedenApp\\Models\\UserCart.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Models\\UserCart.cs",
+              "RelativeToolTip": "BahcedenApp\\Models\\UserCart.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:30:21.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-20T12:22:33.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Areas\\AdminPanel\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "BahcedenApp\\Areas\\AdminPanel\\Views\\Category\\Create.cshtml",
               "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Areas\\AdminPanel\\Views\\Category\\Create.cshtml",
               "RelativeToolTip": "BahcedenApp\\Areas\\AdminPanel\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-19T12:43:15.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_CategoryMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
-              "RelativeDocumentMoniker": "BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
-              "RelativeToolTip": "BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-19T12:31:37.985Z",
+              "WhenOpened": "2026-09-19T12:15:35.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T12:15:13.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "BahcedenApp\\Controllers\\CategoryController.cs",
@@ -85,34 +204,31 @@
               "RelativeToolTip": "BahcedenApp\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T12:29:15.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T12:29:15.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "BahcedenApp\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "_CategoryMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
+              "RelativeDocumentMoniker": "BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
+              "RelativeToolTip": "BahcedenApp\\Views\\Category\\_CategoryMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-19T12:15:35.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T12:31:37.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BahcedenApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BahcedenApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-19T12:15:13.16Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BahcedenApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\Bah-edenZeytinYagiMVCApp\\BahcedenApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BahcedenApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:21:29.913Z"
             }
           ]
         }

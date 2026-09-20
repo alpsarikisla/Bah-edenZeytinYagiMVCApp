@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html>
+﻿@using BahcedenApp.Models
+
+<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/fontawesome-free-7.3.1-web/css/all.min.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
@@ -19,8 +22,20 @@
                     </a>
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">
-                    <a class="btn btn-sm btn-outline-success" href="#">Sepet (0)</a>
-                    <a class="btn btn-sm btn-outline-success" href="#">Giriş Yap</a>
+                    @if (Session["user"] != null)
+                    {
+                        User u = (User)Session["user"];
+                        BahcedenDBModel db = new BahcedenDBModel();
+                        int quantity = db.UserCarts.Count(x => x.User_ID == u.ID);
+                        <a class="btn btn-link" href="#">@u.Name @u.Surname</a>
+                        <a class="btn btn-sm btn-outline-success" href="@Url.Action("Index","UserCart")">Sepet (@quantity)</a>
+                        <a class="btn btn-sm btn-outline-success" href="@Url.Action("Logout","UserAccount")">Çıkış Yap</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-sm btn-outline-success" href="#">Sepet (0)</a>
+                        <a class="btn btn-sm btn-outline-success" href="@Url.Action("Login","UserAccount")">Giriş Yap</a>
+                    }
                 </div>
             </div>
         </header>

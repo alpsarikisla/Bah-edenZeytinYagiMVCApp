@@ -5904,9 +5904,12 @@
     <Content Include="Assets\fontawesome-free-7.3.1-web\svgs\solid\yin-yang.svg" />
     <Content Include="Assets\fontawesome-free-7.3.1-web\svgs\solid\z.svg" />
     <Content Include="Assets\fontawesome-free-7.3.1-web\svgs\solid\zap.svg" />
+    <Content Include="Assets\SiteImages\3d-secure-nedir-3-1024x410.png" />
     <Content Include="Assets\SiteImages\BahcedenLogo.png" />
     <Content Include="Assets\SiteImages\images.jpg" />
     <Content Include="Assets\SiteImages\Logo.png" />
+    <Content Include="Assets\SiteImages\png-transparent-security-earring-shoelaces-safe-payment-watercolor-gem-child-text-service.png" />
+    <Content Include="Assets\SiteImages\SSL-Secure-Connection1.png" />
     <Content Include="Assets\SliderImages\s1.png" />
     <Content Include="Assets\SliderImages\s2.png" />
     <Content Include="Assets\SliderImages\s3.png" />
@@ -5947,6 +5950,8 @@
     <Compile Include="Areas\AdminPanel\Data\ManagerLoginViewModel.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserAccountController.cs" />
+    <Compile Include="Controllers\UserCartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -5956,6 +5961,9 @@
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\ManagerType.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserCart.cs" />
+    <Compile Include="Models\ViewModels\UserLoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -6029,6 +6037,9 @@
     <Content Include="Views\Shared\_LayoutPage1.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Category\_CategoryMenu.cshtml" />
+    <Content Include="Views\UserAccount\Register.cshtml" />
+    <Content Include="Views\UserAccount\Login.cshtml" />
+    <Content Include="Views\UserCart\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

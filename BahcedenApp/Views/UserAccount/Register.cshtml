@@ -1,0 +1,65 @@
+﻿@using BahcedenApp.Models
+@model User
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container">
+    <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">En doğal Zeytinyağları</h1>
+            <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+            <div class="p-4 p-md-5 border rounded-3 bg-light">
+                @using (Html.BeginForm())
+                {
+                    <div class="form-floating mb-3">
+                        <h2>Üye Ol</h2>
+                    </div>
+                    if (ViewBag.sonuc != null)
+                    {
+                        if (ViewBag.sonuc)
+                        {
+                            <div class="alert alert-success">
+                                <strong>Başarılı</strong> Üyelik başarıyla gerçekleşti
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger">
+                                <strong>Hata Oluştu</strong> Üyelik sırasında bir hata oluştu
+                            </div>
+                        }
+                    }
+                    <div class=" mb-3">
+
+                        @Html.EditorFor(Model => Model.Name, new { htmlAttributes = new { @class = "form-control", @placeholder = "Adınız" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+
+                    </div>
+                    <div class=" mb-3">
+
+                        @Html.EditorFor(Model => Model.Surname, new { htmlAttributes = new { @class = "form-control", @placeholder = "Soyadınız" } })
+                        @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+                    </div>
+                    <div class=" mb-3">
+
+                        @Html.EditorFor(Model => Model.Mail, new { htmlAttributes = new { @class = "form-control", @placeholder = "Mail Adresiniz" } })
+                        @Html.ValidationMessageFor(model => model.Mail, "", new { @class = "text-danger" })
+                    </div>
+                    <div class=" mb-3">
+
+                        @Html.EditorFor(Model => Model.Password, new { htmlAttributes = new { @class = "form-control", @placeholder = "Şifreniz" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <button class="w-100 btn btn-lg btn-success" type="submit">Kayıt Ol</button>
+                    <hr class="my-4">
+                    <a href="@Url.Action("Login","UserAccount")" class="btn btn-link">Hesabın var mı? Giriş Yap</a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,100 @@
+﻿@using BahcedenApp.Models
+@model ICollection<UserCart>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<div class="container">
+
+    <div class="row mt-4">
+        <div class="col-md-8">
+            <div class="card ">
+                <div class="card-header">
+                    <h4>Alışveriş Sepetim</h4>
+                </div>
+                <table class="table tab">
+                    <thead>
+                        <tr class="border-bottom">
+                            <td>Resim</td>
+                            <td>Ürün</td>
+                            <td>Adet</td>
+                            <td>Toplam</td>
+                            <td>Sil</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (UserCart item in Model)
+                        {
+                            <tr>
+                                <td><img src="~/Assets/ProductImages/@item.Product.Image" width="60"></td>
+                                <td class="align-middle">
+                                    @if (item.Product.Name.Length > 50)
+                                    {
+                                        @item.Product.Name.Substring(0, 50)<label>...</label>
+                                    }
+                                    else
+                                    {
+                                        @item.Product.Name
+                                    }
+                                </td>
+                                <td class="align-middle">
+                                    <div class="input-group input-group-sm">
+                                        <a href="#" class="btn btn-secondary"> + </a>
+                                        <input type="text" value="@item.Quantity" min="1" style="width:36px;" />
+                                        <a href="#" class="btn btn-secondary"> - </a>
+                                    </div>
+                                </td>
+                                <td class="align-middle">@item.TotalPrice,00 ₺</td>
+                                <td class="align-middle">
+                                    <a href="#" class="btn btn-danger btn-sm"> <i class="fa-solid fa-trash"></i> </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Özet</h4>
+                </div>
+                <div class="card-body">
+                    @{
+                        double geneltoplam = Model.Sum(x => x.TotalPrice);
+                        double KDV = geneltoplam * 0.2;
+                        double toplam = geneltoplam * 0.8;
+                    }
+                    <table class="table table-borderless">
+                        <tr>
+                            <td><strong>Ara Toplam = </strong> </td>
+                            <td>@toplam,00 ₺</td>
+                        </tr>
+                        <tr>
+                            <td><strong>KDV = </strong> </td>
+                            <td>@KDV,00 ₺</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Genel Toplam =</strong> </td>
+                            <td>@geneltoplam,00 ₺</td>
+                        </tr>
+                    </table>
+                    
+              
+                    
+                    <hr />
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-success"> Ödeme Yap</a>
+                    </div>
+                    @*<img src="~/Assets/SiteImages/SSL-Secure-Connection1.png" class="img-fluid"/>*@
+                    <img src="~/Assets/SiteImages/3d-secure-nedir-3-1024x410.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

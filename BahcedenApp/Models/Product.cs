@@ -31,5 +31,7 @@ namespace BahcedenApp.Models
         public string Image { get; set; }
 
         public bool IsDeleted { get; set; }
+
+        public virtual List<UserCart> UserCarts { get; set; }
     }
 }
