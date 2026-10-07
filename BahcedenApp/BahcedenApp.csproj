@@ -51,6 +51,7 @@
       <HintPath>..\packages\EntityFramework.6.5.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -5910,6 +5911,8 @@
     <Content Include="Assets\SiteImages\Logo.png" />
     <Content Include="Assets\SiteImages\png-transparent-security-earring-shoelaces-safe-payment-watercolor-gem-child-text-service.png" />
     <Content Include="Assets\SiteImages\SSL-Secure-Connection1.png" />
+    <Content Include="Assets\SiteImages\Verified.gif" />
+    <Content Include="Assets\SiteImages\WhatsApp Image 2026-10-07 at 19.49.58.jpeg" />
     <Content Include="Assets\SliderImages\s1.png" />
     <Content Include="Assets\SliderImages\s2.png" />
     <Content Include="Assets\SliderImages\s3.png" />
@@ -5963,6 +5966,7 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserCart.cs" />
+    <Compile Include="Models\ViewModels\PayViewModel.cs" />
     <Compile Include="Models\ViewModels\UserLoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -6040,6 +6044,8 @@
     <Content Include="Views\UserAccount\Register.cshtml" />
     <Content Include="Views\UserAccount\Login.cshtml" />
     <Content Include="Views\UserCart\Index.cshtml" />
+    <Content Include="Views\UserCart\Pay.cshtml" />
+    <Content Include="Views\UserCart\PayPaySuccess.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
